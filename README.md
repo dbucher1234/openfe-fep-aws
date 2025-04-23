@@ -1,6 +1,7 @@
 # 🔬 OpenFE FEP Toolkit on AWS
 
 Educational example of how I ran scalable Free Energy Perturbation (FEP) calculations using [OpenFE](https://github.com/OpenFreeEnergy/openfe) on AWS GPU instances (e.g., `g5.48xlarge`, 8× NVIDIA A10G, 192 vCPUs).  
+
 This repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
 
 ---
