@@ -1,0 +1,6 @@
+ligand_i	ligand_j	DDG(i->j) (kcal/mol)	uncertainty (kcal/mol)
+lig_A	lig_C	-0.1	0.0
+lig_A	lig_D	0.1	0.0
+lig_A	lig_E	-0.1	0.0
+lig_B	lig_D	0.3	0.0
+
