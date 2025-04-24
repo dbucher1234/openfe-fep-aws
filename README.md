@@ -24,5 +24,5 @@ Clone the repo and create your environment:
 ```bash
 git clone https://github.com/dbucher1234/openfe-fep-aws.git
 cd openfe-fep-aws
-conda env create -f environment.yml
+conda env create -f openfe_env.yml
 conda activate openfe_fep
