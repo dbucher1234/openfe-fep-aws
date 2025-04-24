@@ -20,3 +20,9 @@ from ligand generation to analysis, using a known benchmark system:
 | `ligand_network.graphml` | Ligand network definition used by OpenFE |
 | `easy_rbfe_lig_A_solvent_lig_C_solvent_gpu3.json` | Output for one alchemical transformation |
 | `ddg.out` | Example output with relative free energies between compounds |
+
+
+<p align="center">
+  <img src="images/fep_overview.png" width="600">
+</p>
+
