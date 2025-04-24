@@ -27,11 +27,13 @@ from ligand generation to analysis, using a known benchmark system:
 
 In my FEP calculations, I get the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg):
 
+<p align="center">
   <img src="../images/fep_results.png" width="600">
 
 It means for instance that lig_A is getting more stable by 0.1 when transformed to lig_C. 
 Knowing lig_A DG value is -5.16 kcal/mol, we get resulting absolute binding free energies: 
 
+<p align="center">
  <img src="../images/fep_ranking.png" width="600">
 
 Interpretation:
