@@ -27,25 +27,16 @@ from ligand generation to analysis, using a known benchmark system:
 
 In my FEP calculations, I get the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg):
 
-ligand_i	ligand_j	DDG(i->j) (kcal/mol)	uncertainty (kcal/mol)
-lig_A	lig_C	-0.1	0.0
-lig_A	lig_D	0.1	0.0
-lig_A	lig_E	-0.1	0.0
-lig_B	lig_D	0.3	0.0
+  <img src="../images/fep_results.png" width="600">
 
 It means for instance that lig_A is getting more stable by 0.1 when transformed to lig_C. 
 Knowing lig_A DG value is -5.16 kcal/mol, we get resulting absolute binding free energies: 
 
-Ligand | Predicted ΔG (kcal mol-¹)
-lig_A (Benzene) | −5.16  (given)
-lig_B (Toluene) | −5.36
-lig_C (Phenol) | −5.26
-lig_D (Aniline) | −5.06
-lig_E (Isopropylbenzene) | −5.26
+ <img src="../images/fep_ranking.png" width="600">
 
 Interpretation:
 • Toluene (lig_B) is predicted to bind ~0.2 kcal mol-¹ more strongly than benzene.
 • Phenol and isopropylbenzene tie at −5.26 kcal mol-¹.
 • Aniline is the weakest of the set by this calculation.
 
-In general, most of them falls within 1 kcal, thus are not that interesting. One would be looking for a much better compound and then try to confirm the predictions with more sampling time and repeats. 
+In general, most of them falls within 1 kcal, thus are not that interesting. One would be looking for a compound predicted better than 1 kcal and then try to confirm the predictions with more sampling time and repeats. 
