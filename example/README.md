@@ -11,18 +11,12 @@ from ligand generation to analysis, using a known benchmark system:
 
 | File | Description |
 |------|-------------|
-| `protein.pdb` | Raw structure from PDB (e.g., 4W52) |
-| `cleaned_protein.pdb` | Output from `prep/clean_protein.py` |
-| `lig_A.sdf … lig_E.sdf` | Ligand files created via `prep/generate_ligand.py` |
-| `ligands.sdf` | All ligands merged into one file (e.g., for visualization or docking) |
-| `mapping.json` | Ligand network definition used by OpenFE |
-| `dummy_results.json` | Pretend OpenFE output for demo purposes |
-| `docked/` | Docked ligand poses (from Maestro or AutoDock Vina) |
-
-## 🔍 Example Output
-
-To run a dry example analysis:
-
-```bash
-python analyze/rank_free_energies.py examples/dummy_results.json
-
+| `/prep/protein.pdb` | Raw structure from PDB (e.g., 4W52) |
+| `/prep/cleaned_protein.pdb` | Output from `prep/clean_protein.py` |
+| `lig_A.sdf … lig_E.sdf` | Ligand files can be created via `prep/generate_ligand.py` |
+| `/prep/ligands.sdf` | All ligands merged into one file (and docked) |
+| `prep/charged_ligands.sdf` | All docked ligands with Espaloma partial charges (ML) |
+| `transformations.json` | Mappings plus simulation settings for OpenFE |
+| `ligand_network.graphml` | Ligand network definition used by OpenFE |
+| `easy_rbfe_lig_A_solvent_lig_C_solvent_gpu3.json` | Output for one alchemical transformation |
+| `ddg.out` | Example output with relative free energies between compounds |
