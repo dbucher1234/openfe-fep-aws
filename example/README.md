@@ -23,6 +23,6 @@ from ligand generation to analysis, using a known benchmark system:
 
 
 <p align="center">
-  <img src="images/fep_overview.png" width="600">
+  <img src="../images/fep_overview.png" width="600">
 </p>
 
