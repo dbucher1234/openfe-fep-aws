@@ -49,7 +49,7 @@ openfe plan-rbfe-network -M ligands.sdf -p cleaned_protein.pdb -o network_setup/
 # will create a default network.
 For 5 ligands, it creates 8 transformations (4 in solvent + 4 in complex), which is trivial to parallelize on 8 GPUs. 
 # python update_json_params.py can be used for testing & debugging.
-It changes the repeats from n=3 to n=1, and the lenght of each simulation from 5ns to 2ns.
+# It changes the repeats from n=3 to n=1, and the lenght of each simulation from 5ns to 2ns.
 
 # Solvent calculations take about 30min on 1 GPU, and complex calculations about 6h. To run:
 nohup ./run.sh > run.log 2>&1 &  # running in the background to remain stable if the shell closes.
