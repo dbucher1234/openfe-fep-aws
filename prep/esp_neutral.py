@@ -1,3 +1,10 @@
+"""
+esp_neutral.py
+
+Utility script to parmetrize with Espaloma a neutral ligand
+
+"""
+
 import warnings
 warnings.filterwarnings("ignore", message=".*Recommend creating graphs by `dgl.graph(data)`.*")
 

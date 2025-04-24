@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+esp_charged.py
+
+Utility script to parmetrize with Espaloma a ligand that has an amine and therefore should have a total charge of 1
+
+"""
+
 import warnings
 warnings.filterwarnings("ignore", message=".*Recommend creating graphs by `dgl.graph(data)`.*")
 
