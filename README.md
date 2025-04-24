@@ -14,7 +14,6 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 | [run/](run)           | AWS batch scripts, job configs, launch helpers |
 | [analyze/](analyze)   | Parse OpenFE results, rank compounds, plot ΔG |
 | [examples/](examples) | Toy dataset (small protein + ligands + dummy results) to test locally |
-| [environment.yml](environment.yml) | Conda setup for GPU/OpenMM-based runs |
 
 ---
 
