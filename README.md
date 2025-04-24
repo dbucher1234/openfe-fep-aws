@@ -34,7 +34,7 @@ conda activate esp
 cd prep
 python esp_neutral.py ligands.sdf 
 
-# 2) prep protein (fixpdb if needed)
+# 2) prep protein (pdbfix if needed)
 conda env create -f openfe_env.yml
 conda activate openfe
 python clean_protein.py
