@@ -24,7 +24,6 @@ from ligand generation to analysis, using a known benchmark system:
 
 <p align="center">
   <img src="../images/fep_overview.png" width="600">
-</p>
 
 In my FEP calculations, I get the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg):
 
