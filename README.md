@@ -41,7 +41,7 @@ python clean_protein.py
 
 # 3) login to AWS
 aws ec2 start-instances --instance-ids *AWS-ID-HERE*
-# login by ssh to the instance, and send by scp: the ligands.sdf, protein.pdb + /run
+# login by ssh, send by scp: ligands.sdf, protein.pdb + /run
 
 # 4) On AWS
 # after installing OpenFE and its environement:
