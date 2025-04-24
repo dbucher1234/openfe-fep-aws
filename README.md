@@ -47,5 +47,5 @@ aws ec2 start-instances --instance-ids *AWS-ID-HERE*
 # 4) On AWS
 Install OpenFE and setup its environement
 openfe plan-rbfe-network -M ligands.sdf -p cleaned_protein.pdb -o network_setup/transformations
-# using default options for the network and 5 ligands, usually creates 8 transformations (4 in solvent + 4 in complex), which is ideal to parallelize. 
+# using default options for the network and 5 ligands creates 8 transformations (4 in solvent + 4 in complex), which is trivial to parallelize on 8 GPUs. 
 
