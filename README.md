@@ -9,7 +9,8 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 ## 📁 What’s Inside
 
 | Folder | Purpose |
-|--------|---------|| [prep/](prep)         | Ligand & system prep scripts (e.g., sdf to topology, mapping, JSONs) |
+|--------|---------|
+| [prep/](prep)         | Ligand & system prep scripts (e.g., sdf to topology, mapping, JSONs) |
 | [run/](run)           | AWS batch scripts, job configs, launch helpers |
 | [analyze/](analyze)   | Parse OpenFE results, rank compounds, plot ΔG |
 | [examples/](examples) | Toy dataset (small protein + ligands + dummy results) to test locally |
