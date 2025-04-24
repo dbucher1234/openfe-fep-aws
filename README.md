@@ -28,7 +28,7 @@ Clone the repo and create your environment:
 git clone https://github.com/dbucher1234/openfe-fep-aws.git
 cd openfe-fep-aws
 
-# 1) prep ligands (optional: will use ML partial charges instead of AM1/BCC to save compute time)
+# 1) prep ligands (optional: use ML partial charges instead of AM1/BCC to save time)
 conda env create -f espaloma_env.yml
 conda activate esp
 cd prep
