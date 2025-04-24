@@ -34,7 +34,7 @@ It means the ranking of the compounds is the following:
 
 <p align="center">
  <img src="../images/fep_ranking.png" width="600">
-
+</p>
 Interpretation:
 • Toluene (lig_B) is predicted to bind ~0.2 kcal mol-¹ more strongly than benzene.
 • Phenol and isopropylbenzene tie at −5.26 kcal mol-¹.
