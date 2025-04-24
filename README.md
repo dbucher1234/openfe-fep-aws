@@ -28,11 +28,12 @@ Clone the repo and create your environment:
 git clone https://github.com/dbucher1234/openfe-fep-aws.git
 cd openfe-fep-aws
 
-# 1)  (optional) prep ligands with ML charges to save compute time
+# 1)  (optional) prep ligands with ML partial charges (instead of AM1/BCC) to save compute time
 conda env create -f espaloma_env.yml
 conda activate esp
 cd prep
 python esp_neutral.py ligands.sdf 
+cp charged_ligands.sdf ligands.sdf  #  overwrites the ligands.sdf file with the charges in
 
 # 2) prep protein with fixpdb
 conda env create -f openfe_env.yml
@@ -40,4 +41,10 @@ conda activate openfe
 python clean_protein.py
 
 # 3) login to AWS
+aws ec2 start-instances --instance-ids *AWS-ID-HERE*
+# login by ssh to the instance, and send by scp: the ligands.sdf, protein.pdb + /run
+
+# 4) On AWS
+Install OpenFE and the openFE env
+
 
