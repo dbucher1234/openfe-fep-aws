@@ -33,7 +33,6 @@ conda env create -f espaloma_env.yml
 conda activate esp
 cd prep
 python esp_neutral.py ligands.sdf 
-cp charged_ligands.sdf ligands.sdf  #  overwrites the ligands.sdf file with the charges in
 
 # 2) prep protein (fixpdb if needed)
 conda env create -f openfe_env.yml
