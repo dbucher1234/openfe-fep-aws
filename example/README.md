@@ -38,7 +38,6 @@ The predicted affinity for the compounds is the following:
 
 Interpretation:
 
-• Toluene (lig_B) is predicted to bind ~0.2 kcal mol-¹ more strongly than benzene.
-• Aniline is the weakest of the set by this calculation.
+Some consistency with experiments: Toluene (lig_B) is predicted to bind ~0.2 kcal mol-¹ more strongly than benzene. Aniline is the weakest of the set by this calculation.
 
 In general, most of them falls within 1 kcal, thus are not that interesting. One would be looking for a compound predicted better than 1 kcal and then try to confirm it with more sampling and more repeats. 
