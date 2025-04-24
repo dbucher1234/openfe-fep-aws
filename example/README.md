@@ -29,13 +29,15 @@ In my FEP calculations, I get the following results for the relative free energy
 
 <p align="center">
   <img src="../images/fep_results.png" width="600">
-
-It means the ranking of the compounds is the following:
+</p>
+The predicted affinity for the compounds is the following:
 
 <p align="center">
  <img src="../images/fep_ranking.png" width="600">
 </p>
+
 Interpretation:
+
 • Toluene (lig_B) is predicted to bind ~0.2 kcal mol-¹ more strongly than benzene.
 • Phenol and isopropylbenzene tie at −5.26 kcal mol-¹.
 • Aniline is the weakest of the set by this calculation.
