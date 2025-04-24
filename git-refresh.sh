@@ -1,11 +1,14 @@
 #!/bin/bash
 
-# Add all changes
+# Add everything
 git add .
 
-# Use a generic commit message (you can customize this!)
-git commit -m "Quick sync"
+# Commit with generic or default message
+git commit -m "Quick sync" 2>/dev/null
 
-# Push to main branch
+# Pull remote changes first (with rebase to avoid merge commits)
+git pull origin main --rebase
+
+# Now push
 git push origin main
 
