@@ -40,4 +40,4 @@ Interpretation:
 
 Some consistency with experiments: Toluene (lig_B) is predicted to bind ~0.2 kcal mol-¹ more strongly than benzene (lig_A). Aniline (lig_D) is the weakest of the set by this calculation.
 
-But all compounds falls to impress (in agreement with experiments). In a real drug discovery programm, one would be looking for a compound predicted better than 1 kcal, and then try to confirm it with more sampling and more repeats. 
+But all compounds fail to impress (in agreement with experiments). In a real drug discovery program, one would be looking for a compound predicted better by more than 1 kcal, and then confirm it with more sampling and more repeats. 
