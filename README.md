@@ -1,4 +1,4 @@
-# 🔬 OpenFE FEP Test Run on AWS
+# 🔬 OpenFE FEP Example on AWS
 
 Educational example, on the T4 Lysozyme L99A (pdb 4W52), of how I ranked ligands using Free Energy Perturbation (FEP) calculations with [OpenFE](https://github.com/OpenFreeEnergy/openfe) on AWS (Using 8xGPU instances `g5.48xlarge`).  
 
