@@ -3,7 +3,7 @@
 This repo shows a minimal **Free-Energy Perturbation (FEP)** campaign with
 [OpenFE](https://github.com/OpenFreeEnergy/openfe) on AWS.  
 
-Provided an educational example of the ranking of 5 ligands in the T4 Lysozyme L99A (pdb 4W52), completed within a few hours on AWS (8xGPU instance `g5.48xlarge`).
+Provided an educational example of the ranking of 5 ligands in the T4 Lysozyme L99A (pdb 4W52), completed within a few hours on a 8xGPU instance (`g5.48xlarge`).
 
 This repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
 
