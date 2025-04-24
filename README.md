@@ -54,10 +54,10 @@ For 5 ligands, it creates 8 transformations (4 in solvent + 4 in complex), which
 # Solvent calculations take about 30min on 1 GPU, and complex calculations about 6h. To run:
 nohup ./run.sh > run.log 2>&1 &  # running in the background to remain stable if the shell closes.
 python check_completion.py  # provide info about running and completed calculations.
-# resubmit.py can be used to resubmit only the jobs that did not complete.
+# resubmit.py can be used to resubmit only jobs that did not complete.
 
 # 5) Gathering results
 # if running a full calculations (3 repeats per leg): openfe gather --report dG
-# if runnign a partial calculation (1 repeat):
+# if running a partial calculation (1 repeat):
 openfe gather --allow-partial --report ddg . > ddg.out &
 # write a script to rank compound from their relative free energy, or just ask ChatGPT to do it. 
