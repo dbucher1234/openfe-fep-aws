@@ -13,7 +13,7 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 
 | Folder | Purpose |
 |--------|---------|
-| [prep/](prep)         | Ligand & system prep scripts (e.g., parmetrized ligands sdf, clean pdb) |
+| [prep/](prep)         | Ligand & system prep scripts (e.g., parmetrize ligands with ML, clean pdb) |
 | [run/](run)           | AWS batch scripts, job configs, launch helpers |
 | [example/](example) | Toy dataset (small protein + ligands + dummy results) to test |
 
