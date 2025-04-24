@@ -3,7 +3,7 @@
 This repo shows a minimal **Free-Energy Perturbation (FEP)** campaign with
 [OpenFE](https://github.com/OpenFreeEnergy/openfe) on AWS.  
 
-Provided an educational example of ranking 5 ligands in the T4 Lysozyme L99A (pdb 4W52), completed within a few hours on a 8xGPU instance (`g5.48xlarge`).
+Provided an educational example: ranking 5 ligands in the T4 Lysozyme L99A (pdb 4W52), which was completed within a few hours on a 8xGPU instance (`g5.48xlarge`).
 
 This repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
 
@@ -15,8 +15,7 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 |--------|---------|
 | [prep/](prep)         | Ligand & system prep scripts (e.g., sdf to topology, mapping, JSONs) |
 | [run/](run)           | AWS batch scripts, job configs, launch helpers |
-| [analyze/](analyze)   | Parse OpenFE results, rank compounds, plot ΔG |
-| [examples/](examples) | Toy dataset (small protein + ligands + dummy results) to test locally |
+| [example/](example) | Toy dataset (small protein + ligands + dummy results) to test locally |
 
 ---
 
@@ -25,7 +24,20 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 Clone the repo and create your environment:
 
 ```bash
+# 0) clone 
 git clone https://github.com/dbucher1234/openfe-fep-aws.git
 cd openfe-fep-aws
+
+# 1)  (optional) prep ligands with ML charges to save compute time
+conda env create -f espaloma_env.yml
+conda activate esp
+cd prep
+python esp_neutral.py ligands.sdf 
+
+# 2) prep protein with fixpdb
 conda env create -f openfe_env.yml
 conda activate openfe
+python clean_protein.py
+
+# 3) login to AWS
+
