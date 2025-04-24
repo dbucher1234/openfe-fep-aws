@@ -21,7 +21,7 @@ from ligand generation to analysis, using a known benchmark system:
 | `easy_rbfe_lig_A_solvent_lig_C_solvent_gpu3.json` | Output for one alchemical transformation |
 | `ddg.out` | Example output with relative free energies between compounds |
 
-
+Below are the ligands, with their experimental binding affinities: 
 <p align="center">
   <img src="../images/fep_overview.png" width="600">
 
