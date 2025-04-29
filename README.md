@@ -31,7 +31,7 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 | `protein.pdb` | Raw structure from PDB |
 | `cleaned_protein.pdb` | Output from `prep/clean_protein.py` |
 | `lig_A.sdf … lig_E.sdf` | Ligand files can be created via `prep/generate_ligand.py` |
-| `ligands.sdf` | All ligands merged into one file (and docked) |
+| `ligands.sdf` | All ligands merged into one file (docked) |
 | `charged_ligands.sdf` | All docked ligands with Espaloma partial charges (ML) |
 | `transformations.json` | Mappings plus simulation settings for OpenFE |
 | `ligand_network.graphml` | Ligand network definition used by OpenFE |
