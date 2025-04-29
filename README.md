@@ -15,7 +15,7 @@ The repo provides scripts, environment setup, and workflows to prep, execute, an
 |--------|---------|
 | [prep/](prep)         | Ligand & system prep scripts (e.g., parmetrize ligands with ML, clean pdb) |
 | [run/](run)           | AWS batch scripts, job configs, launch helpers |
-| [example/](example) | Toy dataset (small protein + ligands + dummy results) to test |
+| [example/](example) | Toy dataset (small protein + ligands) to test |
 
 ---
 
