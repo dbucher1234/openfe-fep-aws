@@ -3,7 +3,7 @@
 This is an educational example to illustrate a **minimal Free-Energy Perturbation (FEP)** campaign with
 [OpenFE](https://github.com/OpenFreeEnergy/openfe) running on the cloud (AWS).  
 
-We will try to rank five ligands bound to T4 lysozyme L99A (PDB ID: 4W52), which should complete within a few hours on an 8-GPU AWS instance (g5.48xlarge).
+We will try to rank five ligands bound to T4 lysozyme L99A (PDB ID: 4W52). It completed within a few hours on an 8-GPU AWS instance (g5.48xlarge).
 
 The repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
 
