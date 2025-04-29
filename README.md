@@ -5,7 +5,7 @@ This is an educational example to illustrate a **minimal Free-Energy Perturbatio
 
 We will try to rank five ligands bound to T4 lysozyme L99A (PDB ID: 4W52), which should complete within a few hours on an 8-GPU AWS instance (g5.48xlarge).
 
-This repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
+The repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
 
 ---
 
