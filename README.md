@@ -21,15 +21,14 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 
 # 🧪 Toy System: L99A Lysozyme + Alkylbenzenes
 
-- **Protein**: T4 Lysozyme L99A (cavity mutant)
+- **Protein**: T4 Lysozyme L99A (cavity mutant, 4W52)
 - **Ligands**: Benzene → Toluene → Phenol → Aniline → Isopropylbenzene
-- **Binding pocket**: Matches experimental binding data (see `../references/`)
 
 ## 📂 Folder Structure
 
 | File | Description |
 |------|-------------|
-| `protein.pdb` | Raw structure from PDB (e.g., 4W52) |
+| `protein.pdb` | Raw structure from PDB |
 | `cleaned_protein.pdb` | Output from `prep/clean_protein.py` |
 | `lig_A.sdf … lig_E.sdf` | Ligand files can be created via `prep/generate_ligand.py` |
 | `ligands.sdf` | All ligands merged into one file (and docked) |
