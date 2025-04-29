@@ -40,4 +40,4 @@ The predicted affinity for the compounds is the following:
 
 Toluene (lig_B) is predicted to bind ~0.2 kcal mol⁻¹ more tightly than benzene (lig_A). Aniline (lig_D) is the weakest of the set by this calculation, in agreement with experiments. 
 
-That said, none of the compounds stands out — which also aligns with experimental data. In a real drug discovery setting, you’d typically look for compounds predicted to be >1 kcal mol⁻¹ better before prioritizing synthesis. Promising hits would then be confirmed with additional sampling and repeat FEP runs.
+That said, none of the compounds stands out — which also aligns with experimental data. In a real drug discovery setting, you’d typically look for compounds predicted to be >1 kcal mol⁻¹ better before prioritizing synthesis. Promising hits could be confirmed before synthesis with additional sampling and repeat FEP runs.
