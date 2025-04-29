@@ -1,9 +1,9 @@
 # 🔬 OpenFE FEP workflow on AWS
 
-This repo illustrates a **minimal Free-Energy Perturbation (FEP)** campaign with
-[OpenFE](https://github.com/OpenFreeEnergy/openfe), running on the cloud (AWS).  
+Provided an educational example to illustrate a **minimal Free-Energy Perturbation (FEP)** campaign running
+[OpenFE](https://github.com/OpenFreeEnergy/openfe) on the cloud (AWS).  
 
-Provided an educational example ranking five ligands bound to T4 lysozyme L99A (PDB ID: 4W52), completed within a few hours on an 8-GPU AWS instance (g5.48xlarge).
+We will rank five ligands bound to T4 lysozyme L99A (PDB ID: 4W52), which should complete within a few hours on an 8-GPU AWS instance (g5.48xlarge).
 
 This repo provides scripts, environment setup, and workflows to prep, execute, and analyze FEP runs.
 
