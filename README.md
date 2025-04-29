@@ -45,12 +45,12 @@ Below are the ligands, with their experimental binding affinities:
 <p align="center">
   <img src="/images/fep_overview.png" width="600">
 
-I got the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg). Knowing lig_A DG value is -5.16 kcal/mol, we can approximate absolute binding free energies: 
+I got the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg). Knowing lig_A DG value is -5.16 kcal/mol, we can predict absolute binding free energies: 
 
 <p align="center">
   <img src="/images/fep_results.png" width="600">
 </p>
-The predicted affinity for the compounds is the following:
+The predicted affinity for each compounds is the following:
 
 <p align="center">
  <img src="/images/fep_ranking.png" width="600">
