@@ -107,6 +107,7 @@ python check_completion.py  # provide info about running and completed calculati
 openfe gather --allow-partial --report ddg . > ddg.out &
 # write a script to rank compound from their relative free energy, or just ask ChatGPT to do it.
 
+```
 ---
 
 ## 📚 References
