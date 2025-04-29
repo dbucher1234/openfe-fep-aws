@@ -24,6 +24,9 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 - **Protein**: T4 Lysozyme L99A (cavity mutant, 4W52)
 - **Ligands**: Benzene → Toluene → Phenol → Aniline → Isopropylbenzene
 
+<p align="center">
+  <img src="/images/FEP.png" width="600">
+
 ## 📂 Folder Structure
 
 | File | Description |
@@ -58,22 +61,6 @@ The predicted affinity for the compounds is the following:
 Toluene (lig_B) is predicted to bind ~0.2 kcal mol⁻¹ more tightly than benzene (lig_A). Aniline (lig_D) is the weakest of the set by this calculation, in agreement with experiments. 
 
 That said, none of the compounds stands out — which also aligns with experimental data. In a real drug discovery setting, you’d typically look for compounds predicted to be >1 kcal mol⁻¹ better before prioritizing synthesis. Promising hits could be confirmed before synthesis with additional sampling and repeat FEP runs.
-
----
-
-## 📚 References
-
-- Chang, C.-E.; Gilson, M. K. *J. Am. Chem. Soc.* **2007**, **129**, 943–953.  
-- Boyce, S. E.; Dalby, A.; **et al.** *J. Mol. Biol.* **2009**, **394**, 747–763.  
-- Morton, S. J.; Matthews, B. W. *Biochemistry* **2009**, **48**, 9466–9478. (PDB 3GUN)  
-- Merski, M.; Fischer, M.; **et al.** *Proc. Natl. Acad. Sci. U.S.A.* **2015**, **112**, 5021–5026.  
-- Raza, A.; Awan, H. M.; **et al.** *J. Chem. Inf. Model.* **2021**, **61**, 4599–4615.  
-- **Espaloma charges:** Qiu, Y.; Smith, D. G. A.; Boothroyd, S.; Chen, J.; Chodera, J. D.  
-  “Espaloma: Graph Neural Networks for Small-Molecule Force-Field Parameters.”  
-  *J. Chem. Theory Comput.* **2022**, **18**, 5634–5646.  
-- Young, T. J.; Unke, O. T.; Hargreaves, M.; Abraham, R. L.; **et al.**  
-  “OpenFE: An Open-Source Framework for Alchemical Free-Energy Calculations.”  
-  *J. Open Source Softw.* **2023**, **8**, 5170. <https://doi.org/10.21105/joss.05170>
 
 ---
 
@@ -118,4 +105,22 @@ python check_completion.py  # provide info about running and completed calculati
 # if running a full calculations (3 repeats per leg): openfe gather --report dG
 # if running a partial calculation (1 repeat):
 openfe gather --allow-partial --report ddg . > ddg.out &
-# write a script to rank compound from their relative free energy, or just ask ChatGPT to do it. 
+# write a script to rank compound from their relative free energy, or just ask ChatGPT to do it.
+
+---
+
+## 📚 References
+
+- Chang, C.-E.; Gilson, M. K. *J. Am. Chem. Soc.* **2007**, **129**, 943–953.  
+- Boyce, S. E.; Dalby, A.; **et al.** *J. Mol. Biol.* **2009**, **394**, 747–763.  
+- Morton, S. J.; Matthews, B. W. *Biochemistry* **2009**, **48**, 9466–9478. (PDB 3GUN)  
+- Merski, M.; Fischer, M.; **et al.** *Proc. Natl. Acad. Sci. U.S.A.* **2015**, **112**, 5021–5026.  
+- Raza, A.; Awan, H. M.; **et al.** *J. Chem. Inf. Model.* **2021**, **61**, 4599–4615.  
+- **Espaloma charges:** Qiu, Y.; Smith, D. G. A.; Boothroyd, S.; Chen, J.; Chodera, J. D.  
+  “Espaloma: Graph Neural Networks for Small-Molecule Force-Field Parameters.”  
+  *J. Chem. Theory Comput.* **2022**, **18**, 5634–5646.  
+- Young, T. J.; Unke, O. T.; Hargreaves, M.; Abraham, R. L.; **et al.**  
+  “OpenFE: An Open-Source Framework for Alchemical Free-Energy Calculations.”  
+  *J. Open Source Softw.* **2023**, **8**, 5170. 
+
+---
