@@ -32,7 +32,7 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 | `cleaned_protein.pdb` | Output from `prep/clean_protein.py` |
 | `lig_A.sdf … lig_E.sdf` | Ligand files can be created via `prep/generate_ligand.py` |
 | `ligands.sdf` | All ligands merged into one file (docked) |
-| `charged_ligands.sdf` | All docked ligands with Espaloma partial charges (ML) |
+| `charged_ligands.sdf` | All docked ligands with ML (Espaloma) partial charges |
 | `transformations.json` | Mappings plus simulation settings for OpenFE |
 | `ligand_network.graphml` | Ligand network definition used by OpenFE |
 | `easy_rbfe_lig_A_solvent_lig_C_solvent_gpu3.json` | Output for one alchemical transformation |
