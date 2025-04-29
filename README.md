@@ -1,4 +1,4 @@
-# 🔬 OpenFE FEP workflow on AWS
+# 🔬 OpenFE minimal FEP workflow on AWS
 
 This is an educational example to illustrate a **minimal Free-Energy Perturbation (FEP)** campaign with
 [OpenFE](https://github.com/OpenFreeEnergy/openfe) running on the cloud (AWS).  
