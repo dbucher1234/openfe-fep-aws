@@ -19,7 +19,7 @@ The repo provides scripts, environment setup, and workflows to prep, execute, an
 
 ---
 
-# 🧪 Toy System: L99A Lysozyme + Alkylbenzenes
+# 🧪 Toy System: L99A Lysozyme
 
 - **Protein**: T4 Lysozyme L99A (cavity mutant, 4W52)
 - **Ligands**: Benzene → Toluene → Phenol → Aniline → Isopropylbenzene
@@ -92,7 +92,7 @@ aws ec2 start-instances --instance-ids *AWS-ID-HERE*
 # install OpenFE and its environement, and then:
 openfe plan-rbfe-network -M ligands.sdf -p cleaned_protein.pdb -o network_setup/transformations
 # will create a default network.
-For 5 ligands, it creates 8 transformations (4 in solvent + 4 in complex), which is trivial to parallelize on 8 GPUs. 
+# For 5 ligands, it creates 8 transformations (4 in solvent + 4 in complex), which is trivial to parallelize on 8 GPUs. 
 # python update_json_params.py can be used for testing & debugging.
 # It changes the repeats from n=3 to n=1, and the lenght of each simulation from 5ns to 2ns.
 
@@ -120,7 +120,7 @@ openfe gather --allow-partial --report ddg . > ddg.out &
 - **Espaloma charges:** Qiu, Y.; Smith, D. G. A.; Boothroyd, S.; Chen, J.; Chodera, J. D.  
   “Espaloma: Graph Neural Networks for Small-Molecule Force-Field Parameters.”  
   *J. Chem. Theory Comput.* **2022**, **18**, 5634–5646.  
-- Young, T. J.; Unke, O. T.; Hargreaves, M.; Abraham, R. L.; **et al.**  
+- **OpenFE:** Young, T. J.; Unke, O. T.; Hargreaves, M.; Abraham, R. L.; et al. 
   “OpenFE: An Open-Source Framework for Alchemical Free-Energy Calculations.”  
   *J. Open Source Softw.* **2023**, **8**, 5170. 
 
