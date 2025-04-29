@@ -21,9 +21,6 @@ This repo provides scripts, environment setup, and workflows to prep, execute, a
 
 # 🧪 Toy System: L99A Lysozyme + Alkylbenzenes
 
-This folder contains a minimal working example of the full FEP workflow,
-from ligand generation to analysis, using a known benchmark system:
-
 - **Protein**: T4 Lysozyme L99A (cavity mutant)
 - **Ligands**: Benzene → Toluene → Phenol → Aniline → Isopropylbenzene
 - **Binding pocket**: Matches experimental binding data (see `../references/`)
