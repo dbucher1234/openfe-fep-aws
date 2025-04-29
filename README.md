@@ -27,6 +27,12 @@ The repo provides scripts, environment setup, and workflows to prep, execute, an
 <p align="center">
   <img src="/images/FEP.png" width="600">
 
+Below are the ligands, with their experimental binding affinities: 
+<p align="center">
+  <img src="/images/fep_overview.png" width="600">
+
+---
+
 ## 📂 Folder Structure
 
 | File | Description |
@@ -40,27 +46,6 @@ The repo provides scripts, environment setup, and workflows to prep, execute, an
 | `ligand_network.graphml` | Ligand network definition used by OpenFE |
 | `easy_rbfe_lig_A_solvent_lig_C_solvent_gpu3.json` | Output for one alchemical transformation |
 | `ddg.out` | Example output with relative free energies between compounds |
-
-Below are the ligands, with their experimental binding affinities: 
-<p align="center">
-  <img src="/images/fep_overview.png" width="600">
-
-I got the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg). Knowing lig_A DG value is -5.16 kcal/mol, we can predict absolute binding free energies: 
-
-<p align="center">
-  <img src="/images/fep_results.png" width="600">
-</p>
-The predicted affinity for each compounds is the following:
-
-<p align="center">
- <img src="/images/fep_ranking.png" width="600">
-</p>
-
-**Interpretation:**
-
-Toluene (lig_B) is predicted to bind ~0.2 kcal mol⁻¹ more tightly than benzene (lig_A). Aniline (lig_D) is the weakest of the set by this calculation, in agreement with experiments. 
-
-That said, none of the compounds stands out — which also aligns with experimental data. In a real drug discovery setting, you’d typically look for compounds predicted to be >1 kcal mol⁻¹ better before prioritizing synthesis. Promising hits could be confirmed before synthesis with additional sampling and repeat FEP runs.
 
 ---
 
@@ -108,6 +93,27 @@ openfe gather --allow-partial --report ddg . > ddg.out &
 # write a script to rank compound from their relative free energy, or just ask ChatGPT to do it.
 
 ```
+---
+
+**Results**
+
+I got the following results for the relative free energy (no error bars due to the lack of repeats, and limited accuracy due to 2ns per leg). Knowing lig_A DG value is -5.16 kcal/mol, we can predict absolute binding free energies: 
+
+<p align="center">
+  <img src="/images/fep_results.png" width="600">
+</p>
+The predicted affinity for each compounds is the following:
+
+<p align="center">
+ <img src="/images/fep_ranking.png" width="600">
+</p>
+
+**Interpretation:**
+
+Toluene (lig_B) is predicted to bind ~0.2 kcal mol⁻¹ more tightly than benzene (lig_A). Aniline (lig_D) is the weakest of the set by this calculation, in agreement with experiments. 
+
+That said, none of the compounds stands out — which also aligns with experimental data. In a real drug discovery setting, you’d typically look for compounds predicted to be >1 kcal mol⁻¹ better before prioritizing synthesis. Promising hits could be confirmed before synthesis with additional sampling and repeat FEP runs.
+
 ---
 
 ## 📚 References
