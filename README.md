@@ -33,7 +33,7 @@ Below are the ligands, with their experimental binding affinities:
 
 ---
 
-## 📂 Folder Structure
+## 📂 List of files
 
 | File | Description |
 |------|-------------|
