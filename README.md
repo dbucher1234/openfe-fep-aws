@@ -101,7 +101,7 @@ openfe gather --allow-partial --report ddg . > ddg.out &
 
 **Results:**
 
-I got the following results for the relative free energy. No error bars are shown due to the lack of repeats, and limited accuracy due to 2ns per leg instead of 5ns (this is not recommended in general, but faster). Setting lig_A free energy value to -5.16 kcal/mol, we can predict absolute binding free energies: 
+On an initial test-run, the following results were obtained for the relative free energy. No error bars are shown due to the lack of repeats (n=1 instead of n=3 by default), and limited accuracy (due to 2ns per leg instead of 5ns by default) -- this is not recommended in general, but faster/cheaper to run. Setting lig_A at its free energy value to -5.16 kcal/mol, we can predict other aryls absolute binding free energies: 
 
 <p align="center">
   <img src="/images/fep_results.png" width="600">
