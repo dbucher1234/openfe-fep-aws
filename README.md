@@ -133,7 +133,6 @@ In a real drug discovery setting, one would mostly focus on these compounds pred
   “Espaloma: Graph Neural Networks for Small-Molecule Force-Field Parameters.”  
   *J. Chem. Theory Comput.* **2022**, **18**, 5634–5646.  
 - **OpenFE:** Young, T. J.; Unke, O. T.; Hargreaves, M.; Abraham, R. L.; et al. 
-  “OpenFE: An Open-Source Framework for Alchemical Free-Energy Calculations.”  
   *J. Open Source Softw.* **2023**, **8**, 5170. 
 
 ---
