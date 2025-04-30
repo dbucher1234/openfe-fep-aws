@@ -19,7 +19,7 @@ The repo provides scripts, environment setup, and workflows to prep, execute, an
 
 ---
 
-# 🧪 Toy System: L99A Lysozyme
+# 🧪 Toy System: L99A Lysozyme + 5 aryl ligands
 
 - **Protein**: T4 Lysozyme L99A (cavity mutant, 4W52)
 - **Ligands**: Benzene → Toluene → Phenol → Aniline → Isopropylbenzene
