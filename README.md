@@ -106,7 +106,7 @@ On an initial test-run, the results below were obtained for the relative free en
 <p align="center">
   <img src="/images/fep_results.png" width="600">
 </p>
-The predicted affinity for each compounds is the following:
+The predicted affinity for each compounds is then the following:
 
 <p align="center">
  <img src="/images/fep_ranking.png" width="600">
